@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_card"
+    android:layout_width="160dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/large_margin">
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:cardCornerRadius="@dimen/large_radius"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" >
+
+            <ImageView
+                android:id="@+id/book_image"
+                android:scaleType="centerCrop"
+                android:src="@drawable/book_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/book_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/m_medium_margin"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="@string/book_name"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="@dimen/medum_text_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/card_image" />
+
+    <TextView
+        android:id="@+id/auther_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/very_small_margin"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="@string/auther_name"
+        android:textSize="@dimen/small_text_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/book_name" />
+
+    <TextView
+        android:id="@+id/currency_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_0_00"
+        android:gravity="center"
+        android:padding="@dimen/very_small_padding"
+        android:background="@drawable/currency_background"
+        android:elevation="@dimen/dim4"
+        android:textColor="@color/color_prime"
+        android:textSize="@dimen/small_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

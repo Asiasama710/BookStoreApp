@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Book Store App</string>
+    <string name="book_name">Book name</string>
+    <string name="auther_name">Auther name</string>
+    <string name="_0_00">$0.00</string>
+    <string name="description_text">Here is a description of the book and full details about everything related to the book in case it is a novel Vicket a description related to a novel Here is a description of the book and full details about everything related to the book in case it is a novel Vicket a description related to a novel Here is a description of the book and full details about everything related to the book in case it is a novel Vicket a description related to a novel Here is a description of the book and full details about everything related to the book in case it is a novel Vicket a description related to a novel</string>
+    <string name="buy_now">Buy now</string>
+    <string name="hint_text">Book name</string>
+    <string name="all_books">All Books</string>
+
+</resources>
